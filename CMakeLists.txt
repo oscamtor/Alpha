@@ -9,7 +9,7 @@ MESSAGE ("OCT -- :MY_MATHLIB_LIB " ${MY_MATHLIB_LIB})
 include_directories(${MY_MATHLIB_INCLUDE})
 find_library(MY_MATHLIB_LIB maths)
 
-add_executable(alpha main.cpp ${MY_MATHLIB_INCLUDE}/maths.h)
+add_executable(alpha main.cpp)
 
 #ko
 #target_link_libraries(maths ../Maths/cmake-build-debug/libmaths.so)
